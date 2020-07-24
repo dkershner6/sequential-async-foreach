@@ -1,6 +1,6 @@
 {
-  "name": "await-async-for-each",
-  "version": "1.0.0",
+  "name": "sequential-async-foreach",
+  "version": "1.0.1",
   "description": "An NPM package to properly handle using async functions in a forEach fashion (unlike Native forEach). Uses proper Promises and is light and efficient.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,9 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkershner6/await-async-for-each.git"
+    "url": "git+https://github.com/dkershner6/sequential-async-foreach.git"
   },
   "keywords": [
+    "await",
+    "sequential",
     "async",
     "forEach",
     "Promise"
@@ -24,9 +26,9 @@
   "author": "Derek Kershner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkershner6/await-async-for-each/issues"
+    "url": "https://github.com/dkershner6/sequential-async-foreach/issues"
   },
-  "homepage": "https://github.com/dkershner6/await-async-for-each#readme",
+  "homepage": "https://github.com/dkershner6/sequential-async-foreach#readme",
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "@types/node": "^14.0.22",
