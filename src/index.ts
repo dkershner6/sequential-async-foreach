@@ -1,1 +1,3 @@
-export { default as twoPlusTwo } from './lib';
+import asyncForEach from './lib';
+
+export default asyncForEach;

@@ -1,7 +1,7 @@
 {
-  "name": "npm-typescript-package-template",
-  "version": "0.0.0",
-  "description": "A template for easy creation of new NPM packages",
+  "name": "await-async-for-each",
+  "version": "1.0.0",
+  "description": "An NPM package to properly handle using async functions in a forEach fashion (unlike Native forEach). Uses proper Promises and is light and efficient.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -14,20 +14,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkershner6/npm-typescript-package-template.git"
+    "url": "git+https://github.com/dkershner6/await-async-for-each.git"
   },
-  "keywords": [],
+  "keywords": [
+    "async",
+    "forEach",
+    "Promise"
+  ],
   "author": "Derek Kershner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkershner6/npm-typescript-package-template/issues"
+    "url": "https://github.com/dkershner6/await-async-for-each/issues"
   },
-  "homepage": "https://github.com/dkershner6/npm-typescript-package-template#readme",
+  "homepage": "https://github.com/dkershner6/await-async-for-each#readme",
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "@types/node": "^14.0.22",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "await-wait": "^1.1.2",
     "cross-env": "^7.0.2",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
