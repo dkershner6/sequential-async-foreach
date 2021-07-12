@@ -32,7 +32,7 @@
   "homepage": "https://github.com/dkershner6/sequential-async-foreach#readme",
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.22",
+    "@types/node": "^16.3.1",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
     "await-wait": "^1.1.7",
