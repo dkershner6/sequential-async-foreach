@@ -1,4 +1,5 @@
-import asyncForEach from './lib';
-
-export { asyncForEach };
-export default asyncForEach;
+export class Hello {
+  public sayHello() {
+    return 'hello, world!';
+  }
+}
