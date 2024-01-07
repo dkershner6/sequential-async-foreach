@@ -1,4 +1,5 @@
 import { wait } from "await-wait";
+
 import { asyncForEach } from ".";
 
 describe("asyncForEach", () => {
